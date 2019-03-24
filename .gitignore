@@ -1,0 +1,6 @@
+frontend/node_modules
+frontend/build
+frontend/package-lock.json
+bigbang/__pycache__
+home/__pycache__
+core/__pycache__
