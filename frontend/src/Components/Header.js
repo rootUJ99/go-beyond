@@ -4,7 +4,7 @@ import logo from '../logo.svg';
 import {Header} from '../StyledComponents/Header';
 import {Img} from '../StyledComponents/Logo'
 import {Menu, MenuItems} from '../StyledComponents/MenuItems'
-
+import {NavLink} from 'react-router-dom'
 class Header0 extends Component {
   render() {
     return (
@@ -14,10 +14,14 @@ class Header0 extends Component {
         <div/>
         <Menu>
           <MenuItems>
+          <NavLink exact to="/">
             Home
+            </NavLink>
           </MenuItems>
           <MenuItems>
-            Select
+            <NavLink exact to="/Login">
+            Login
+            </NavLink>
           </MenuItems>
         </Menu>
         </Header>
