@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import 'normalize.css'
 import Navigation from './Containers/Navigation';
 class App extends Component {
   render() {

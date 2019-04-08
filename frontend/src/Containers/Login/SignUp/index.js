@@ -1,5 +1,6 @@
 import React from 'react'
 import { Formik, Form, Field } from 'formik';
+import Button from '../../../Components/Button';
 import * as Yup from 'yup';
 
 const SignupSchema = Yup.object().shape({
@@ -54,7 +55,7 @@ const Signup = (props) => (
           {errors.email && touched.email ? <div>{errors.email}</div> : null}
           <Field name="password" type="password" />
           {errors.password && touched.password ? <div>{errors.password}</div> : null}
-          <button type="submit" >Submit</button>
+          <Button type="submit" >Submit</Button>
         </Form>
       )}
     </Formik>

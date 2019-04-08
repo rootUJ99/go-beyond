@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../../../Components/Button';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 
@@ -31,7 +32,7 @@ const Signup = (props) => (
           {errors.username && touched.username ? <div>{errors.username}</div> : null}
           <Field name="password" type="password" />
           {errors.password && touched.password ? <div>{errors.password}</div> : null}
-          <button type="submit" >Submit</button>
+          <Button type="submit" >Submit</Button>
         </Form>
       )}
     </Formik>

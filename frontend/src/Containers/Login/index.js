@@ -1,5 +1,6 @@
 import React, {useState, createContext} from 'react'
 import axios from 'axios';
+import Button from '../../Components/Button';
 import  {withRouter}  from 'react-router';
 import SignUp from './SignUp'
 import SignIn from './SignIn'
@@ -68,9 +69,9 @@ const Login = (props) => {
   return (
     <div>
     {form}
-    or  <button onClick={()=>{
+    or  <Button onClick={()=>{
       renderForm === FormValues.SIGNUP ? setrenderForm('') : setrenderForm(FormValues.SIGNUP)
-      }}>{buttonvalue}</button>
+      }}>{buttonvalue}</Button>
     </div>
 );
 }
