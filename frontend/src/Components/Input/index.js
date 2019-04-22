@@ -6,7 +6,10 @@ const InputText = (props) => {
     setInput({input: e})
   }
   return (
-    <input {...props}/>
+    <input {...props} 
+    // onChange={handleChange}
+    // value={input}
+    />
   );
 }
 export default InputText;

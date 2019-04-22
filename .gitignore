@@ -4,3 +4,4 @@ frontend/package-lock.json
 bigbang/__pycache__
 home/__pycache__
 core/__pycache__
+core/migrations/__pycache__
