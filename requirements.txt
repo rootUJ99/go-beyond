@@ -1,5 +1,5 @@
 certifi==2018.11.29
-Django==2.1.5
+Django==2.2
 django-cors-headers==2.4.1
 djangorestframework==3.9.1
 djangorestframework-jwt==1.11.0
@@ -7,5 +7,7 @@ mysqlclient==1.4.1
 pipenv==2018.11.26
 PyJWT==1.7.1
 pytz==2018.9
+sqlparse==0.3.0
+style==1.1.0
 virtualenv==16.3.0
 virtualenv-clone==0.5.1
