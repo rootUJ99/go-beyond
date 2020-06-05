@@ -1,5 +1,5 @@
 certifi==2018.11.29
-Django==2.2
+Django==2.2.13
 django-cors-headers==2.4.1
 djangorestframework==3.9.1
 djangorestframework-jwt==1.11.0
