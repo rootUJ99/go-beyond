@@ -5,7 +5,7 @@ djangorestframework==3.9.1
 djangorestframework-jwt==1.11.0
 mysqlclient==1.4.1
 pipenv==2018.11.26
-PyJWT==1.7.1
+PyJWT==2.4.0
 pytz==2018.9
 sqlparse==0.3.0
 style==1.1.0
