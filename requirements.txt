@@ -1,4 +1,4 @@
-certifi==2018.11.29
+certifi==2022.12.7
 Django==2.2
 django-cors-headers==2.4.1
 djangorestframework==3.9.1
